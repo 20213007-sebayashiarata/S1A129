@@ -1,0 +1,22 @@
+@charset "UTF-8";
+* {
+    font-family: 'Dela Gothic One', cursive;
+    color: #333;
+}
+p {
+    background-color: #eee;
+}
+.main-visual-text {
+    font-size: 25px;
+    line-height: 2em;
+}
+.skill-img {
+    background-color: transparent;
+}
+.skill-name {
+    font-size: 30px
+}
+.skill-text {
+    background-color: aquamarine;
+    font-size: 100%;
+}
