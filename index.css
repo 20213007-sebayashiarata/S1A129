@@ -9,7 +9,7 @@ p {
 .main-visual-text {
     font-size: 25px;
     line-height: 2em;
-    background-color: grey;
+    background-color: aquamarine;
 }
 a.game-link:link {color: #00f;}
 a.game-link:visited {color: #90f;}
