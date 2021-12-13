@@ -9,6 +9,19 @@ p {
 .main-visual-text {
     font-size: 25px;
     line-height: 2em;
+    background-color: grey;
+}
+a.game-link:link {color: #00f;}
+a.game-link:visited {color: #90f;}
+a.game-link:hover {
+    background-color: #888;
+}
+a.game-link:active {
+    background-color: #888;
+}
+a.game-link:focus {
+    outline: #333;
+    border: 4px solid #ff0;
 }
 .skill-img {
     background-color: transparent;
