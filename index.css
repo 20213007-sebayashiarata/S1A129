@@ -4,8 +4,15 @@
     font-family: 'Shippori Mincho', serif;
     color: #333;
 }
+body{
+    background: url(portfolio/img/haikei.JPG) rgb(255, 255, 255) left top no-repeat;
+    background-size: contain;
+}
 p {
-    background-color: #eee;
+    background-color: transparent;
+}
+.main-visual-img{
+    background-color: transparent;
 }
 .game-link {
     display: inline-block;
@@ -38,6 +45,7 @@ li {
     font-size: 25px;
     line-height: 2em;
     background-color: aquamarine;
+    border-radius: 10px;
 }
 a.game-link:link {color: #00f;}
 a.game-link:visited {color: #90f;}
@@ -59,9 +67,11 @@ a.game-link:focus {
 }
 .skill-text {
     background-color: aquamarine;
+    text-align: center;
     font-size: 1.5em;
     padding: 0 2em 0 2em;
     margin: 0 2em 0 3em;
+    border-radius: 40%;
 }
 .works-title {animation: vibration 0.01s ease 0s infinite alternate;}
 @keyframes vibration {
