@@ -16,6 +16,14 @@ p {
 .main-visual-img{
     background-color: transparent;
 }
+.like-anime {
+    display: inline-block;
+    text-align: center;
+}
+.anime{
+    display: inline-block;
+    color: #333;
+}
 .game-link {
     display: inline-block;
     position: relative;
