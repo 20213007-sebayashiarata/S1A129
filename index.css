@@ -5,11 +5,13 @@
     color: #333;
 }
 body{
-    background: url(portfolio/img/haikei.JPG) rgb(255, 255, 255) left top no-repeat;
     background-size: contain;
 }
 p {
     background-color: transparent;
+}
+.main-visual{
+    background: url(portfolio/img/haikei.JPG) rgb(255, 255, 255) left top no-repeat;
 }
 .main-visual-img{
     background-color: transparent;
@@ -75,8 +77,9 @@ a.game-link:focus {
 }
 .works-title {animation: vibration 0.01s ease 0s infinite alternate;}
 @keyframes vibration {
-    0% {transform: translate(0,0);}
-    100% {transform: translate(5px,0);}
+    0% {transform: translate(0,-10px);}
+    50%{transform: translate(0,-5px);}
+    100% {transform: translate(0,0);}
 }
 .works-title {
     text-align: center;
