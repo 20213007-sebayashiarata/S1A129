@@ -29,6 +29,11 @@ p {
     display: inline-block;
     text-align: center;
 }
+.anime-list{
+    background-color: #fff;
+    border-color: #000;
+    border-radius: 40%;
+}
 .anime{
     display: inline-block;
     color: #333;
@@ -59,6 +64,12 @@ p {
 li {
     list-style: none;
     margin: 10px 0;
+}
+#works{
+    background-color: #534774;
+}
+#skill{
+    background-color: #888;
 }
 .main-visual-text {
     font-size: 25px;
@@ -113,6 +124,15 @@ a.game-link:focus {
 .works-title {
     text-align: center;
     font-size: 4em;
+}
+.works-item{
+    color: #333;
+}
+.works-item:nth-of-type(29){
+    color: #fff;
+}
+.works-item:nth-of-type(30){
+    color: #fff;
 }
 .skill-title span{
     display: inline-block;
