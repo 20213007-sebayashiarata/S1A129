@@ -13,9 +13,9 @@
   <!-- 電話番号らしき数字を自動でリンクにしないための記述 -->
   <meta name="format-detection" content="telephone=no">
   <!-- ファビコン：お気に入りで表示されるアイコン -->
-  <link rel="shortcut icon" href="../img/favicon.ico">
+  <link rel="shortcut icon" href="img/favicon.ico">
   <!-- スマートフォン、タブレットで使用されるアイコン -->
-  <link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
   <!-- リセットCSSの読み込み -->
   <link rel="stylesheet" href="../css/normalize.css">
   <!-- スタイルの読み込み -->
@@ -52,33 +52,39 @@
         <img src="img/ttl_contact.svg" alt="お問い合わせフォーム">
       </h2>
       <!-- フォーム -->
-
+      <form action="">
       <!-- お名前 -->
-      <div>
+      <div class="form-group">
         <!-- 項目名 -->
         <label>お名前</label>
-        <!-- 入力欄：テキスト -->
-
+        <div class="form-col">
+          <!-- 入力欄：テキスト -->
+          <input type="text" name="お名前" id="yourname">
+        </div>
       </div>
       <!-- E-Mail -->
-      <div>
+      <div class="form-group">
         <!-- 項目名 -->
         <label>E-Mail</label>
-        <!-- 入力欄：email -->
-
+        <div class="form-col">
+          <!-- 入力欄：email -->
+          <input type="email" name="E-Mail" id="yourEmail">
+        </div>
       </div>
       <!-- お問い合わせ内容 -->
       <div>
         <!-- 項目名 -->
         <label>お問い合わせ内容</label>
-        <!-- 入力欄：テキストエリア -->
-
+        <div class="form-col">
+          <!-- 入力欄：テキストエリア -->
+          <textarea name="お問い合わせ内容" id="yourInquiry" cols="30" rows="10"></textarea>
+        </div>
       </div>
       <!-- 送信ボタン -->
       <div>
 
       </div>
-
+    </form>
       <!-- フォームここまで -->
     </section>
     <!-- セクションここまで -->
