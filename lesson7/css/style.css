@@ -209,71 +209,74 @@ address {
 /* 入場料（テーブル） */
 /* テーブル全体への指定 */
 .price-table {
-  
-  
+  width: 100%;
+  font-size: 12px;
   /* テーブルの境界線が重ねて表示する */
-  
+  border-collapse: collapse;
 }
 /* <thead>に対する指定 */
-
-  
-  
-
+.price-table thead{
+  background: #4184e2;
+  color: #fff;
+}
 /* <th>と<td>に対する指定 */
-
-  
-  
-  
-
+.price-table th,.price-table td{
+  border: 1px solid #707070;
+  padding: 20px 15px;
+  font-weight: 500;
+}
 /* <tbody>内の<th>に対する指定 */
-
-  
-  
-
+.price-table tbody th{
+  text-align: left;
+  background-color: #fff;
+}
 /* <tbody>内の<td>に対する指定 */
-
-  
-
+.price-table tbody td{
+  background-color: #fff;
+}
 
 /* --------------------------------------------------
   お問い合わせフォーム
 -------------------------------------------------- */
 /* フォームの3つのブロックに対する指定 */
 .form-group {
-  
+  margin-bottom: 20px;
 }
 /* 項目名に対する指定 */
 .form-label {
-  
-  
-  
+  display: block;
+  margin-bottom: 10px;
+  color: #032559;
 }
 /* 送信ボタンを囲む<div>に対する指定 */
 .form-btn {
-  
-  
+  margin: 30px 0;
+  text-align: center;
 }
 /* 入力欄に対する指定 */
-
-  
-  
-  
-
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #999;
+}
 /* 入力欄が:focus（入力状態）のとき */
-
-  
-  
-
+input[type="text"]:focus,
+input[tepe="email"]:focus,
+textarea:focus{
+  border-color: #032559;
+  outline: none;
+}
 /* 送信ボタン */
-
-  
-  
-  
-
+button[type="submit"] {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 /* 送信ボタンが:hoverのとき */
-
-  
-
+button[type="submit"]:hover {
+  opacity: 0.65;
+}
 /* --------------------------------------------------
   幅768px未満のスタイル指定 ここまで
 -------------------------------------------------- */
