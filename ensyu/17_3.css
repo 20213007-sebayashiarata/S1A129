@@ -15,7 +15,7 @@ div {
 /* background-sizeをそれぞれ指定 */
 .px {background-size: 150px 50px;}
 
-.per {background-size: 50px 50px;}
+.per {background-size: 50% 50%;}
 
 .cover {background-size: cover;}
 

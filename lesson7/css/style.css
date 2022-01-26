@@ -254,7 +254,8 @@ address {
   text-align: center;
 }
 /* 入力欄に対する指定 */
-input,
+input[type="text"],
+input[type="email"],
 textarea {
   width: 100%;
   padding: 10px;
