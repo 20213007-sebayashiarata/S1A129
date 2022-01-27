@@ -32,7 +32,8 @@ p {
 .anime-list{
     background-color: #fff;
     border-color: #000;
-    margin: auto;
+    height: 40px;
+    text-align: center;
 }
 .anime{
     display: inline-block;
