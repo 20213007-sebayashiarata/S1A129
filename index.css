@@ -109,18 +109,61 @@ a.game-link:focus {
     margin: 0 2em 0 3em;
     border-radius: 40%;
 }
-.works-title span{
+.works-title span:nth-of-type(1){
     display: inline-block;
-    animation: vibration 1s ease-in-out 0s infinite ;
+    animation: workwerb1 1s ease-in-out  infinite ;
 }
-.works-title span:nth-of-type(1){animation-delay: 0.1s;}
-.works-title span:nth-of-type(2){animation-delay: 0.2s;}
-.works-title span:nth-of-type(3){animation-delay: 0.3s;}
-.works-title span:nth-of-type(4){animation-delay: 0.4s;}
-@keyframes vibration {
-    0% {transform: translate(0,0);}
-    60% {transform: translate(0,-10px);}
-    100% {transform: translate(0,0);}
+.works-title span:nth-of-type(2){
+    display: inline-block;
+    animation: workwerb2 1s ease-in-out  infinite ;
+}
+.works-title span:nth-of-type(3){
+    display: inline-block;
+    animation: workwerb3 1s ease-in-out  infinite ;
+}
+.works-title span:nth-of-type(4){
+    display: inline-block;
+    animation: workwerb4 1s ease-in-out  infinite ;
+}
+@keyframes workwerb1 {
+    0% {transform: translate(-500px,0);
+        color: transparent;}
+    10% {transform: translate(-400px,0);}
+    20% {transform: translate(-300px,0);}
+    30% {transform: translate(-200px,0);}
+    40% {transform: translate(-100px,0);}
+    50% {transform: translate(0,0);
+        color: yellowgreen;}
+}
+@keyframes workwerb2 {
+    0% {transform: translate(0,-500px);
+        color: transparent;}
+    10% {transform: translate(0,-400px);}
+    20% {transform: translate(0,-300px);}
+    30% {transform: translate(0,-200px);}
+    40% {transform: translate(0,-100px);}
+    50% {transform: translate(0,0);
+        color: yellowgreen;}
+}
+@keyframes workwerb3 {
+    0% {transform: translate(0,500px);
+        color: transparent;}
+    10% {transform: translate(0,400px);}
+    20% {transform: translate(0,300px);}
+    30% {transform: translate(0,200px);}
+    40% {transform: translate(0,100px);}
+    50% {transform: translate(0,0);
+        color: yellowgreen;}
+}
+@keyframes workwerb4 {
+    0% {transform: translate(500px,0);
+        color: transparent;}
+    10% {transform: translate(400px,0);}
+    20% {transform: translate(300px,0);}
+    30% {transform: translate(200px,0);}
+    40% {transform: translate(100px,0);}
+    50% {transform: translate(0,0);
+        color: yellowgreen;}
 }
 .works-title {
     text-align: center;
@@ -146,9 +189,12 @@ a.game-link:focus {
 .skill-title span:nth-of-type(5){ animation-delay: 0.4s; }
 
 @keyframes wave-text{
-    00%{transform: translateY(0em);}
-    60%{transform: translateY(-0.8em);}
-    100%{transform: translateY(0em);}
+    00%{transform: translateY(0em);
+    color: red;}
+    60%{transform: translateY(-0.8em);
+    color: purple;}
+    100%{transform: translateY(0em);
+    color: blue;}
 }
 .skill-title { 
     text-align: center;
@@ -156,4 +202,17 @@ a.game-link:focus {
 }
 span {
     color: #adff2f;
+}
+.aikontwitter img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.aikonyoutube img{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+.aikon{
+    text-align: center;
 }
