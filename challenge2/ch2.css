@@ -9,8 +9,7 @@
   margin: 0;
 }
 body {
-  background: url("wood.jpg") ;
-  background-color: #504643;
+  background: url("wood.jpg") #504643;
   text-align: center;
   margin: 0;
   padding: 40px;
@@ -58,8 +57,8 @@ em {
 ul{
   list-style: none;
   display: flex;
-  justify-self: center;
+  padding-left: 0;
 }
 li{
-  flex: 0 1 22%;
+  flex: 1 1 20%;
 }
